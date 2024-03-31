@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="idea"
+		content="Rajasekhar Malireddy"/>
+<meta http-equiv="author"		
+		content="nagendra,atchyut ram"/>
+<title>Education Hub</title>
+<style type="text/css">
+fieldset {width: 610px;
+		margin:auto;
+		border: 1px solid darkcyan;
+		background-color:;
+		line-height: 3.6em;
+		font-size:24px;
+		text-transform:uppercase;
+		text-align:left;
+		}
+legend {font-style:italic;
+		color:#666666;
+		font-family:Georgia;
+	font-size:34px;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:2px 2px 3px darkcyan;}
+input{width: 220px;
+		height:30px;
+		border: 2px solid darkcyan;
+		padding: 2px;outline: none;
+		font-style:normal;
+		font-size:20px;
+		text-transform:capitalize;
+		}
+input[type="text"],input[type="email"],input[type="password"]
+{position:absolute;
+	right:250px;
+	padding:20px;
+	margin-top:20px;}
+select{text-transform:uppercase;}
+option{text-transform:capitalize;}
+
+input:hover{background-color: #d0e2f0;
+		border: 1px solid #999;}
+input[type="submit"] {border: 1px solid #006633;
+						background-color: #009966;
+						color: #FFFFFF;
+						border-radius: 5px;
+						padding: 5px;margin-top: 10px;}
+input[type="submit"]:hover {border: 1px solid #006633;
+							background-color: #00CC33;
+							color: #FFFFFF;cursor: pointer;}
+
+input[type="submit"]{width:170px;
+		height:60px;
+	text-align: right;}
+fieldset{position:relative;}	
+
+</style>
+</head>
+<body>
+<form action="" >
+<fieldset>
+	<legend>student Details</legend>
+	<label for="name">
+		Name:<input type="text" name="name" placeholder="enter your name" required id="name"/>
+	</label><br>
+	<label for="id no">
+		id no:<input type="text" name="id no" placeholder="n181022" required id="id no"/>
+	</label><br>
+	<label for="mail">
+		Email:<input type="email" name="mail" placeholder="example@gmail.com" required id="mail"/>
+	</label><br>
+	<label for="password">
+		password:<input type="password" name="password" placeholder="enter your email password" required id="password"/>
+	</label><br>
+</fieldset><br>
+<fieldset>
+	<legend>problem details</legend>
+	<label for="hear">what is the problem ?
+		<select name="hear"id="hear">
+			<option value="none">none</option>
+			<option value="laptop">laptop</option>
+			<option value="mess">mess</option>
+			<option value="hostel">hostel</option>
+			<option value="academics">academics</option>
+			<option value="teachers">teachers</option>
+			<option value="wardens">wardens</option>
+			<option value="students">students</option>
+			<option value="library">library</option>
+		</select>
+	</label><br>
+	<label for="hostel name">Which hostel do you belong to ?<br>
+		<input type="radio" name="hostel name"  id="hostel name" value="i1"/>i1
+	</label>
+	<label for="no">
+		<input type="radio" name="hostel name" id="no" value="i2"/>i2
+	</label>
+	<label for="i3">
+		<input type="radio" name="hostel name" id="i3" value="i3"/>i3
+	</label>
+	<label for="k1">
+		<input type="radio" name="hostel name" id="k1" value="k1"/>k1
+	</label>
+	<label for="k2">
+		<input type="radio" name="hostel name" id="k2" value="k2"/>k2
+	</label>
+	<label for="k3">
+		<input type="radio" name="hostel name" id="k3" value="k3"/>k3
+	</label>
+	<label for="k4">
+		<input type="radio" name="hostel name" id="k4" value="k4"/>k4
+	</label><br>
+Comments and other problems:<br>
+<textarea rows="5" cols="30">
+</textarea>
+<br>
+<input type="checkbox" name="sign" checked="checked">
+<label for="sign">i agree to all the terms</label>
+<br>
+<input type="submit" value="submit "></input>
+		
+		
+</fieldset>
+
+
+</form>
+</body>
+</html>

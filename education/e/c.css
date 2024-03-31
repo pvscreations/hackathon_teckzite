@@ -1,0 +1,37 @@
+.div4{position:relative;
+	width:1350px;
+	height:400px;
+	border:2px solid white;
+	bottom:690px;
+	background-image:url("RR.GIF");
+	background-color:black;}
+.left{position:absolute;
+	width:400px;
+	height:350px;
+	border:2px solid white;
+	left:80px;
+	}
+.right{border:2px solid white;
+	width:400px;
+	height:350px;
+	position:absolute;
+	right:72px;}
+.div4 li{list-style-type:none;
+	border:2px solid white;
+	padding:10px 20px 10px 20px ;
+	border-radius:10px 10px 10px 10px;
+	text-transform:capitalize;
+	font-size:20px;
+	text-indent:1px;
+}
+.div4 a{float:right;}
+	
+.div4 li{float:left;
+	 }
+	 a{text-decoration:none;}
+	 a:visited{color:red;}
+	 a:link{color:white;}
+	 a:hover{box-shadow:3px 3px 5px red;}
+	 #d a:hover,#p a:hover{box-shadow:0px 0px 0px white;}
+
+	
